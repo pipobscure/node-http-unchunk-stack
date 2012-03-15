@@ -1,0 +1,15 @@
+{
+  "name": "node-http-unchunk-stack",
+  "author": "Philipp Dunkel <phidelta@phideltacity.net>",
+  "version": "0.1.1",
+  "main": "./index.js",
+  "description": "A filter that buffers an HTTP-Response (if TE is chunked), resets the TE header and sets the Content-Length",
+  "keywords": [
+    "http.ServerResponse",
+    "Transfer-Encoding",
+    "chunked"
+  ],
+  "dependencies": {
+    "stream-stack": ">=1.1.3"
+  }
+}
